@@ -1,0 +1,36 @@
+body{
+    font-size: 25px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    display:flex;
+    border-radius: 5px;
+    border-collapse: prop of collapse;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 10em;
+}
+
+.green{
+    background-color: green;
+    color:#fff;
+}
+
+th, td{
+    padding: 10px;
+}
+
+tr:nth-child(3){
+    background-color: #f2f2f2;
+    color:rgb(44, 200, 147)
+}
+
+body, table tr,:nth-child(4){
+    border:3px solid rgb(0, 128, 0)
+}
+
+#border{
+    border-bottom: solid 3px rgb(200, 44, 147);
+}
